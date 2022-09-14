@@ -1,0 +1,70 @@
+body {
+    background: black;
+}
+
+.nav {
+    background: rgba(169, 169, 169, 0.635);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-style: none;
+}
+
+.nav-link {
+    color: #22f4ce;
+}
+
+#home {
+    height: 100vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
+hgroup>h1 {
+    color: #22f4ce;
+    font-size: 6.75rem;
+}
+
+hgroup>h2 {
+    font-size: 2rem;
+    color: rgb(112, 112, 112);
+}
+
+#picture {
+    padding: 0px;
+    padding-top: 20px;
+    width: 16rem;
+    height: 16rem;
+    margin: 2em auto;
+    display: block;
+}
+
+.intro {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    width: 30rem;
+    border-style: none;
+    color: white;
+}
+
+.project-head {
+    color: #22f4ce;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    margin: 3rem 0;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.list-unstyled {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.proj {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    border-radius: 50%;
+    border-style: none;
+}

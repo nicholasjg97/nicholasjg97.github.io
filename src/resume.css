@@ -10,7 +10,7 @@ body {
     border-style: none;
 }
 
-.nav-link {
+.nav-link, hgroup>h1 {
     color: #22f4ce;
 }
 
@@ -20,6 +20,7 @@ header {
     border: 0;
     font-size: 100%;
 }
+
 
 header>div {
     margin: 0 auto; 
@@ -39,7 +40,7 @@ hgroup {
 
 hgroup>h1 {
     font-family: "Josefin Sans",sans-serif;
-    color: #22f4ce;
+    /* color: #22f4ce; */
     font-size: 1.5em; 
     font-weight: 100; 
     padding: 0; 
@@ -103,4 +104,42 @@ resume-content {
     font-size: 1.2 rem;
     text-align: justify;
     display: block;
+}
+
+resume-content>h1 {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+resume-content>h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    font-family: "Josefin Sans",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+resume-content>h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Josefin Sans",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+resume-content>p {
+    text-align: center;
+    margin: 1em 0;
+    
 }

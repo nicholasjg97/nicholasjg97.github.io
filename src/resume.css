@@ -138,18 +138,16 @@ article>div>h3 {
     text-align: center;
     text-transform: uppercase;
     margin: 3rem 0;
+    color: rgba(169, 169, 169, 0.635);
 }
 
 article>div>p {
     text-align: center;
-    margin: 1em 0;
+    margin: 1em 7em;
 
 }
 
-hr {
-    position: relative;
-    display: block;
-    height: 4px;
-    left: 50%;
-    width: 10rem;
+.work-date {
+    color: rgba(169, 169, 169, 0.635);
 }
+

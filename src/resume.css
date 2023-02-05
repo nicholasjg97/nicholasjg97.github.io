@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: rgb(25, 211, 218);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(104, 109, 118);
+    border: none;
+}
+
+.nav-link {
+    color: rgb(25, 211, 218);
+}

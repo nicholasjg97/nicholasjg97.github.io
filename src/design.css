@@ -15,3 +15,13 @@ body {
 .nav-link {
     color: rgb(25, 211, 218);
 }
+
+.to-top {
+    background-color: rgb(55, 58, 64);
+    border-radius: 50%;
+    border: none;
+}
+
+.go-up {
+    color: rgb(238, 238, 238)
+}
